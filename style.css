@@ -9,6 +9,7 @@ body {
 body * {
   box-sizing: border-box;
 }
+
 .login {
   font-size: 0.8vw;
   color: #77ffc0;
@@ -114,13 +115,13 @@ body * {
   box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-@media (max-widht: 950px) {
+@media (max-width: 950px) {
   .card-registro {
     width: 85%;
   }
 }
 
-@media (max-widht: 600px) {
+@media (max-width: 600px) {
   .main-registro {
     flex-direction: column;
   }
@@ -140,10 +141,15 @@ body * {
   }
 
   .left-registro-image {
-    width: 40vh;
+    width: 15vh;
   }
 
   .card-registro {
     width: 90%;
+  }
+
+  .login {
+    font-size: 3vw;
+    color: #77ffc0;
   }
 }
